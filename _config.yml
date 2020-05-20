@@ -1,0 +1,23 @@
+# Site settings
+url: "https://www.solaris-spa.com"
+baseurl: "/"
+title: "Solaris"
+description: "Massage & Relaxation Center"
+organisation: "Solaris Massage & Relaxation Center"
+organisation_address: "20 Airport Road, Al Garhoud, Dubai"
+organisation_email: "info@solaris-spa.com"
+organisation_phone: "+971 58 658 2958"
+
+booking_url: "https://www.fresha.com/providers/solaris-spa"
+
+collections:
+  - staff_members
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+host: 0.0.0.0

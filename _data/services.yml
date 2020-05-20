@@ -1,0 +1,39 @@
+- name: Full Body Massage
+  price60: 180
+  price90: 230
+  price120: 270
+
+- name: Full Body Massage with Oil, Aromatherapy or Hot Stones
+  price60: 220
+  price90: 290
+  price120: 330
+
+- name: Full Body Massage with Water Jet Bath
+  price60: 320
+  price90: 420
+  price120: 480
+
+- name: Full Body Massage with Moroccan Bath
+  price60: 320
+  price90: 420
+  price120: 480
+
+- name: 4 Hands Full Body Massage
+  price60: 320
+  price90: 420
+  price120: 480
+
+- name: 4 Hands Full Body Massage with Oil, Aromatherapy or Hot Stones
+  price60: 360
+  price90: 470
+  price120: 540
+
+- name: 4 Hands Full Body Massage with Water Jet Bath
+  price60: 460
+  price90: 600
+  price120: 690
+
+- name: 4 Hands Full Body Massage with Moroccan Bath
+  price60: 460
+  price90: 600
+  price120: 690

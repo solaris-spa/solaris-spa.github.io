@@ -1,0 +1,24 @@
+<section id="hours">
+    <div class="container">
+        <h1>Opening Hours</h1>
+        <p>Open all week, every day from 9 AM to 1 AM</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">First Appointment</th>
+                    <th scope="col">Last Appointment</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for time in site.data.hours %}
+                <tr>
+                    <th scope="row">{{ time.day }}</th>
+                    <td>{{ time.open }}</td>
+                    <td>{{ time.close }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>

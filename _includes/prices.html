@@ -1,0 +1,26 @@
+<section id="prices">
+    <div class="container">
+        <h1>Prices</h1>
+        <p>All our prices already include any applicable taxes</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Service</th>
+                    <th scope="col" class="price-col">60 mins </th>
+                    <th scope="col" class="price-col">90 mins </th>
+                    <th scope="col" class="price-col">120 mins</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for service in site.data.services %}
+                <tr>
+                    <th scope="row">{{ service.name }}</th>
+                    <td>AED {{ service.price60 }}</td>
+                    <td>AED {{ service.price90 }}</td>
+                    <td>AED {{ service.price120 }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>

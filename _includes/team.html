@@ -1,0 +1,20 @@
+<section id="team" class="bg-light">
+    <div class="container">
+        <h1>Our Team</h1>
+        <p>Meet our staff</p>
+        <div class="card-deck justify-content-center">
+        {% for staff_member in site.staff_members %}
+            <div class="card mb-4">
+                <img class="card-img-top" src="/assets/img/staff_members/{{ staff_member.thumbnail }}" alt="{{ staff_member.name }} Thumbnail">
+                <div class="card-body">
+                    <h4 class="card-title">{{ staff_member.name }}</h4>
+                    <p class="card-text">Nationality: {{ staff_member.nationality }}</p>
+                    <p class="card-text">Languages: {{ staff_member.languages }}</p>
+                    <!--<p class="card-text">Interests: {{ staff_member.content }}</p>-->
+                    <a href="#" class="btn solaris-link-dark">Book {{ staff_member.name }} now!</a>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>

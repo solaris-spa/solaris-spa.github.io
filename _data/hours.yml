@@ -1,0 +1,27 @@
+- day: Sunday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Monday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Tuesday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Wednesday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Thursday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Friday
+  open: 09:00 AM
+  close: 12:00 Midnight
+
+- day: Saturday
+  open: 09:00 AM
+  close: 12:00 Midnight
