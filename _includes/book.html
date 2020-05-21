@@ -1,22 +1,22 @@
 <section id="book" class="picture-section">
     <div class="container">
         <div class="solaris-highlight mb-4">
-            <h1 >Book</h1>
-            Reserve an appointment with your chosen therapist today
+            <h2>Book</h2>
+            <p>Reserve an appointment with your chosen therapist today</p>
         </div>
         <div class="card-deck">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Online</h4>
                     <p class="card-text">Click the link below for online booking</p>
-                    <a type="button" class="btn solaris-link-dark" href="{{ site.booking_url }}">BOOK ONLINE NOW</a>
+                    <a class="btn solaris-link-dark" href="{{ site.booking_url }}">BOOK ONLINE NOW</a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Telephone</h4>
                     <p class="card-text">Alternatively call our reception on</p>
-                    <a type="button" class="btn solaris-link-dark" href="tel:{{ site.organisation_phone }}">{{ site.organisation_phone }}</a>
+                    <a class="btn solaris-link-dark" href="tel:{{ site.organisation_phone | remove: ' ' }}">{{ site.organisation_phone }}</a>
                 </div>
             </div>
         </div>

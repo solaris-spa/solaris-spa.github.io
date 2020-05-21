@@ -96,6 +96,19 @@ h1,h2,h3,h4,h5,h6 {
   //display: inline-block;
 }
 
+table {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  color: $body-text-color;
+  h1,h2,h3,h4,h5,h6 {
+    color: $body-header-color;
+  }
+}
+
 header {
   height: 100vh;
   background: linear-gradient(rgba(101, 100, 96, 0) 0%, rgba(101, 100, 96, 0.1) 10%, rgba(101, 100, 96, 0.65) 100%), url('/assets/img/masthead.jpg') no-repeat top center scroll;
@@ -123,6 +136,8 @@ footer {
   margin-top: 56px;
   margin-bottom: 16px;
 }
+
+// -- MASTHEAD (HOME) --
 
 .masthead-logo {
   color: $white;
@@ -193,29 +208,9 @@ footer {
   }
 }
 
+// -- ABOUT --
 
-table {
-  text-align: left;
-  max-width: 800px;
-  margin: auto;
-}
-
-.card {
-  color: $body-text-color;
-  h1,h2,h3,h4,h5,h6 {
-    color: $body-header-color;
-  }
-}
-
-#team .card-deck {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-#team .card {
-  min-width: 15rem;
-  max-width: 15rem;
-}
+// -- LOCATION --
 
 #location {
   background: linear-gradient(rgba(101, 100, 96, 0.1) 0%, rgba(101, 100, 96, 0.2) 10%, rgba(101, 100, 96, 0.3) 100%), url('/assets/img/location.jpg') no-repeat center scroll;
@@ -232,12 +227,33 @@ table {
   border: 0;
 }
 
+// -- PRICES --
+
 .price-col {
   min-width: 5.3rem;
 }
 
+// -- TEAM --
+
+#team .card-deck {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#team .card {
+  min-width: 15rem;
+  max-width: 15rem;
+}
+
+// -- HOURS --
+
+// -- BOOK --
 
 #book {
   background: linear-gradient(rgba(101, 100, 96, 0.1) 0%, rgba(101, 100, 96, 0.2) 10%, rgba(101, 100, 96, 0.3) 100%), url('/assets/img/book.jpg') no-repeat center scroll;
   background-size: cover;
+}
+
+#book .solaris-highlight p {
+  margin-bottom: 0;
 }
