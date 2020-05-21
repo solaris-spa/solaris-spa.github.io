@@ -1,6 +1,7 @@
 ---
 layout: policy
 title: "Terms & Conditions"
+permalink: /terms/
 ---
 
 Terms & Conditions
