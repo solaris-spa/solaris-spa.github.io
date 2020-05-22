@@ -1,8 +1,12 @@
 # Site settings
 url: "https://www.solaris-spa.com"
 baseurl: "/"
-title: "SOLARIS"
-description: "Massage & Relaxation Center"
+title: "Solaris Massage & Relaxation Center"
+description: "Massage Spa and Relaxation Therapy in Dubai, United Arab Emirates"
+
+logo_title: "Solaris"
+logo_caption: "Massage & Relaxation Center"
+
 organisation: "Solaris Massage & Relaxation Center"
 organisation_address: "20 Airport Road, Al Garhoud, Dubai"
 organisation_email: "info@solaris-spa.com"
