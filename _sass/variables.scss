@@ -25,17 +25,21 @@ $body-font: Dubai-Regular, sans-serif;
 
 $fa-font-path: '/assets/fonts';
 
+
 // COLOR PALLET
 
 $white: #fff;
 $brown-light: #c4ab96;
 $brown-medium: #6d5149;
-$brown-dark: #4f3122; //rgba(79, 49, 34, 1);
+$brown-dark: #4f3122;
 
 $grey-superlight: #f2f4f5;//#f8f9fa;
 $grey-light: #a2a4a5;//#a3a3a3;
 $grey-medium: #626465;//#727475;
 $grey-dark: #424445;
+
+$gradient-base: #656460;
+$background-picture-gradient: linear-gradient(rgba($gradient-base, 0.1) 0%, rgba($gradient-base, 0.2) 10%, rgba($gradient-base, 0.3) 100%);
 
 
 // COLOR ASSIGNMENTS
@@ -44,8 +48,8 @@ $background-color: $white;
 $body-text-color: $grey-medium;
 $body-header-color: $grey-dark;
 
-$link-light: #c4ab96;
-$link-dark: #6d5149;
+$link-light: $brown-light;
+$link-dark: $brown-medium;
 $link-text: $white;
 
 $solaris-bg-nav: rgba($brown-dark, 0.2);
@@ -56,6 +60,8 @@ $solars-text-nav: rgba($white, 1);
 
 // BOOTSTRAP CONFIG
 
+$primary: $brown-medium;
+
 $navbar-nav-link-padding-x:         1em;
 
 $navbar-dark-color:                 rgba($white, .8);
@@ -64,6 +70,7 @@ $navbar-dark-active-color:          $white;
 $navbar-dark-disabled-color:        rgba($white, .5);
 //$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-dark-toggler-border-color:  rgba($white, .8);
+
 
 // xs
 // 576

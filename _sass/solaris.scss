@@ -29,38 +29,6 @@ section {
   margin-right: -0.6em;
 }
 
-.solaris-link-dark {
-  background: rgba($link-dark, 1);
-  color: $link-text;
-  border-radius: 24px;
-}
-
-.solaris-link-dark:hover {
-  background: rgba($link-dark, 0.8);
-  color: $link-text;
-}
-
-.solaris-link-dark:active {
-  background: rgba($link-dark, 0.6);
-  color: $link-text;
-}
-
-.solaris-link-light {
-  background: rgba($link-light, 1);
-  color: $link-text;
-  border-radius: 24px;
-}
-
-.solaris-link-light:hover {
-  background: rgba($link-light, 0.8);
-  color: $link-text;
-}
-
-.solaris-link-light:active {
-  background: rgba($link-light, 0.6);
-  color: $link-text;
-}
-
 .picture-section {
   color: $white;
   h1,h2,h3,h4,h5,h6 {
@@ -101,20 +69,16 @@ section {
 }
 
 .navbar-nav .nav-button-dark {
-  background: rgba($link-dark, 1);
+  background: $link-dark;
 }
 
 .navbar-nav .nav-button-dark:hover {
-  background: rgba($link-dark, 0.8);
-}
-
-.navbar-nav .nav-button-dark:active {
-  background: rgba($link-dark, 0.6);
+  background: darken($link-dark, 7.5%)
 }
 
 @include media-breakpoint-up(lg) {
   .navbar-nav .nav-button-dark {
-    border-radius: 24px;
+    border-radius: 50rem !important;
   }
 }
 
@@ -122,13 +86,11 @@ section {
 
 header {
   height: 100vh;
-  background: linear-gradient(rgba(101, 100, 96, 0) 0%, rgba(101, 100, 96, 0.1) 10%, rgba(101, 100, 96, 0.65) 100%), url('/assets/img/masthead.jpg') no-repeat top center scroll;
+  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
   background-size: cover;
-  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
-  //background-attachment: fixed;
 }
 
 .masthead-logo {
@@ -202,7 +164,7 @@ header {
 // -- LOCATION --
 
 #location {
-  background: linear-gradient(rgba(101, 100, 96, 0.1) 0%, rgba(101, 100, 96, 0.2) 10%, rgba(101, 100, 96, 0.3) 100%), url('/assets/img/location.jpg') no-repeat center scroll;
+  background: $background-picture-gradient, url('/assets/img/location.jpg') no-repeat center scroll;
   background-size: cover;
 }
 
@@ -229,7 +191,7 @@ header {
 // -- BOOK --
 
 #book {
-  background: linear-gradient(rgba(101, 100, 96, 0.1) 0%, rgba(101, 100, 96, 0.2) 10%, rgba(101, 100, 96, 0.3) 100%), url('/assets/img/book.jpg') no-repeat center scroll;
+  background: $background-picture-gradient, url('/assets/img/book.jpg') no-repeat center scroll;
   background-size: cover;
 }
 
