@@ -1,8 +1,8 @@
-<footer class="text-center small">
+<footer id="footer" class="text-center">
     <div class="container">
-        <div class="row mb-3 text-md-left">
-            <div class="col-md">
-                <h6>Navigation</h6>
+        <div class="row text-md-left mb-3">
+            <div class="col-md-auto">
+                <h5>Navigation</h5>
                 <ul class="list-unstyled">
                     <li><a href="{{ '/' | relative_url }}">Home</a></li>
                     <li><a href="{{ site.booking_url }}">Online Booking</a></li>
@@ -10,14 +10,9 @@
                     <li><a href="{{ '/privacy' | relative_url }}">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="col-md">
-                <!--<h6>Contact</h6>-->
-                <!--<ul class="list-unstyled">-->
-
-                <!--</ul>-->
-            </div>
-            <div class="col-md">
-                <h6>{{ site.organisation }}</h6>
+            <div class="col-md"></div>
+            <div class="col-md-auto">
+                <h5>{{ site.organisation }}</h5>
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marked-alt"></i> <a href="https://maps.google.com/maps?ll=25.252964,55.342151&z=17&t=m&hl=en&gl=DE&mapclient=embed&daddr=Solaris%20Spa%2020%20Airport%20Rd%20Garhoud%20-%20Dubai%20United%20Arab%20Emirates@25.252964,55.3421512">{{ site.organisation_address }}</a></li>
                     <li><i class="fas fa-phone"></i> <a href="tel:{{ site.organisation_phone | remove: ' ' }}">{{ site.organisation_phone }}</a></li>
@@ -25,8 +20,10 @@
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-center">
-            Copyright &copy; {{ site.organisation }} {{ site.time | date: '%Y' }}
+        <div class="row">
+            <div class="col">
+                <p>Copyright &copy; {{ site.organisation }} {{ site.time | date: '%Y' }}</p>
+            </div>
         </div>
     </div>
 </footer>

@@ -4,45 +4,23 @@ body {
   color: $body-text-color;
 }
 
-
 h1,h2,h3,h4,h5,h6 {
   font-family: $heading-font;
   color: $body-header-color;
 }
 
-.navbar {
-  background-color: $solaris-bg-nav;
-  padding: 16px 16px;
-  transition: background-color 0.3s ease-in-out;
-  transition: padding 0.3s ease-in-out;
+table {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
 }
 
-.navbar-narrow {
-  background-color: $solaris-bg-nav-narrow;
-  padding: 8px 8px;
-}
-
-.navbar-nav .nav-link {
-  padding-left: 8px;
-  text-transform: uppercase;
-}
-
-.navbar-nav .nav-button-dark {
-  background: rgba($link-dark, 1);
-}
-
-.navbar-nav .nav-button-dark:hover {
-  background: rgba($link-dark, 0.8);
-}
-
-.navbar-nav .nav-button-dark:active {
-  background: rgba($link-dark, 0.6);
-}
-
-@include media-breakpoint-up(lg) {
-  .navbar-nav .nav-button-dark {
-    border-radius: 24px;
-  }
+section {
+  //min-height: 60vh;
+  padding-top: 112px;
+  text-align: center;
+  padding-bottom: 112px;
+  display: flex;
 }
 
 .solaris-brand {
@@ -96,18 +74,51 @@ h1,h2,h3,h4,h5,h6 {
   //display: inline-block;
 }
 
-table {
-  text-align: left;
-  max-width: 800px;
-  margin: auto;
-}
-
 .card {
   color: $body-text-color;
   h1,h2,h3,h4,h5,h6 {
     color: $body-header-color;
   }
 }
+
+// -- NAVBAR --
+
+.navbar {
+  background-color: $solaris-bg-nav;
+  padding: 16px 16px;
+  transition: background-color 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
+}
+
+.navbar-narrow {
+  background-color: $solaris-bg-nav-narrow;
+  padding: 8px 8px;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 8px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-button-dark {
+  background: rgba($link-dark, 1);
+}
+
+.navbar-nav .nav-button-dark:hover {
+  background: rgba($link-dark, 0.8);
+}
+
+.navbar-nav .nav-button-dark:active {
+  background: rgba($link-dark, 0.6);
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-nav .nav-button-dark {
+    border-radius: 24px;
+  }
+}
+
+// -- MASTHEAD --
 
 header {
   height: 100vh;
@@ -120,27 +131,7 @@ header {
   //background-attachment: fixed;
 }
 
-section {
-  //min-height: 60vh;
-  padding-top: 112px;
-  text-align: center;
-  padding-bottom: 112px;
-  display: flex;
-}
-
-footer {
-  //padding: 8px 0;
-  //text-align: center;
-  //background-color: $link-light;
-  //color: $white;
-  margin-top: 56px;
-  margin-bottom: 16px;
-}
-
-// -- MASTHEAD (HOME) --
-
 .masthead-logo {
-  color: $white;
   text-align: center;
   font-size: 40px;
   padding: 0.6em 0.6em;
@@ -150,13 +141,11 @@ footer {
 
 .masthead-logo-brand {
   font-size: 40px;
-  transition: font-size 0.1s;
   font-family: $brand-font;
 }
 
 .masthead-logo-description {
   font-size: 16px;
-  transition: font-size 0.1s;
   font-family: $brand-font;
 }
 
@@ -217,16 +206,6 @@ footer {
   background-size: cover;
 }
 
-@include media-breakpoint-up(md) {
-  #location {
-    text-align: right;
-  }
-}
-
-.mapframe {
-  border: 0;
-}
-
 // -- PRICES --
 
 .price-col {
@@ -254,6 +233,8 @@ footer {
   background-size: cover;
 }
 
-#book .solaris-highlight p {
-  margin-bottom: 0;
+// -- FOOTER --
+
+footer {
+  padding-top: 56px;
 }
