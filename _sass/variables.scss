@@ -2,21 +2,25 @@
 @font-face {
   font-family: 'Dubai-Light';
   src: url('/assets/fonts/DubaiW23-Light.woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Dubai-Regular';
   src: url('/assets/fonts/DubaiW23-Light.woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Dubai-Medium';
   src: url('/assets/fonts/DubaiW23-Medium.woff2');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Dubai-Bold';
   src: url('/assets/fonts/DubaiW23-Bold.woff2');
+  font-display: swap;
 }
 
 $brand-font: Dubai-Light, sans-serif;
