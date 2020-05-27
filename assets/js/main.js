@@ -8,8 +8,8 @@ $(window).scroll(function() {
 });
 
 // Close the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggler:visible').click();
+$(".navbar-collapse ul li a").click(function() {
+    $(".navbar-toggler:visible").click();
 });
 
 // Smooth Scrolling
