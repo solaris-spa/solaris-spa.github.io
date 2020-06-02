@@ -17,6 +17,7 @@
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marked-alt"></i> <a href="https://maps.google.com/maps?ll=25.252964,55.342151&z=17&t=m&hl=en&gl=DE&mapclient=embed&daddr=Solaris%20Spa%2020%20Airport%20Rd%20Garhoud%20-%20Dubai%20United%20Arab%20Emirates@25.252964,55.3421512">{{ site.organisation_address }}</a></li>
                     <li><i class="fas fa-phone"></i> <a href="tel:{{ site.organisation_phone | remove: ' ' }}">{{ site.organisation_phone }}</a></li>
+                    <li><i class="fab fa-whatsapp" style="padding-left:1px;padding-right:1px;"></i> <a href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}">{{ site.organisation_phone }}</a></li>
                     <li><i class="fas fa-envelope"></i> <a href="mailto:{{ site.organisation_email }}">{{ site.organisation_email }}</a></li>
                 </ul>
             </div>
