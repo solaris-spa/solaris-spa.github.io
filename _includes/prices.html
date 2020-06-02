@@ -12,14 +12,14 @@
                 </tr>
             </thead>
             <tbody>
-            {% for service in site.data.services %}
+                {% for service in site.data.services %}
                 <tr>
                     <th scope="row">{{ service.name }}</th>
                     <td>AED {{ service.price60 }}</td>
                     <td>AED {{ service.price90 }}</td>
                     <td>AED {{ service.price120 }}</td>
                 </tr>
-            {% endfor %}
+                {% endfor %}
             </tbody>
         </table>
     </div>
