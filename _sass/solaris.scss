@@ -186,6 +186,14 @@ header {
   max-width: 15rem;
 }
 
+#team {
+  background: $background-picture-gradient, url('/assets/img/team_placeholder.jpg') no-repeat center scroll;
+  background-size: cover;
+  .solaris-highlight {
+    background-color: rgba($brown-medium, 0.3);
+  }
+}
+
 // -- HOURS --
 
 // -- BOOK --

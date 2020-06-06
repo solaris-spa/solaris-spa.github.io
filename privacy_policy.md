@@ -1,5 +1,5 @@
 ---
-layout: policy
+layout: text
 title: "Privacy Policy"
 permalink: /privacy/
 ---

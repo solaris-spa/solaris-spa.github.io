@@ -14,7 +14,8 @@ organisation_email: "info@solaris-spa.com"
 organisation_phone: "+971 58 658 2958"
 
 google_analytics: "UA-145708486-1"
-booking_url: "https://www.fresha.com/providers/solaris-spa"
+booking_url: "/book"
+#"https://www.fresha.com/providers/solaris-spa"
 
 collections:
   - staff_members
