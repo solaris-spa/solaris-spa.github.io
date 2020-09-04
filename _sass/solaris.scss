@@ -38,8 +38,13 @@ section {
 
 .solaris-highlight {
   padding: 1em 1em;
-  background-color: $solaris-bg-masthead-logo;
+  background-color: $solaris-bg-highlight;
   //display: inline-block;
+}
+
+.solaris-highlight-alt {
+  padding: 1em 1em;
+  background-color:  $solaris-bg-highlight-alt;
 }
 
 .card {
@@ -103,12 +108,12 @@ header {
 
 .masthead-logo-brand {
   font-size: 40px;
-  font-family: $brand-font;
+  font-family: $masthead-font;
 }
 
 .masthead-logo-description {
   font-size: 16px;
-  font-family: $brand-font;
+  font-family: $body-font;
 }
 
 @include media-breakpoint-up(sm) {
@@ -164,7 +169,7 @@ header {
 // -- LOCATION --
 
 #location {
-  background: $background-picture-gradient, url('/assets/img/location.jpg') no-repeat center scroll;
+  background: $background-picture-gradient, url('/assets/img/p0.jpg') no-repeat center scroll;
   background-size: cover;
 }
 
@@ -189,9 +194,6 @@ header {
 #team {
   background: $background-picture-gradient, url('/assets/img/team_placeholder.jpg') no-repeat center scroll;
   background-size: cover;
-  .solaris-highlight {
-    background-color: rgba($brown-medium, 0.3);
-  }
 }
 
 // -- HOURS --
@@ -199,7 +201,7 @@ header {
 // -- BOOK --
 
 #book {
-  background: $background-picture-gradient, url('/assets/img/book.jpg') no-repeat center scroll;
+  background: $background-picture-gradient, url('/assets/img/p1.jpg') no-repeat center scroll;
   background-size: cover;
 }
 
