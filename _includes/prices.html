@@ -1,7 +1,11 @@
 <section id="prices">
     <div class="container">
         <h2>Prices</h2>
-        <p>All our prices already include any applicable taxes</p>
+        <p>Our prices already include any applicable taxes</p>
+        {% if site.discount_enable %}
+        <h2 class="text-danger">Special opening offer!</h2>
+        <h2 class="text-danger">Book your favourite service when we open with up to 33% discount!</h2>
+        {% endif %}
         <table class="table">
             <thead>
                 <tr>
@@ -12,14 +16,21 @@
                 </tr>
             </thead>
             <tbody>
-                {% for service in site.data.services %}
+            {% for service in site.data.services %}
                 <tr>
+                    {% if site.discount_enable %}
+                    <th scope="row">{{ service.name }}<br><span class="text-success">Discount (-33%)</span></th>
+                    <td><strike>AED {{ service.price60 }}</strike><br><span class="text-success">AED {{ service.price60d }}</span></td>
+                    <td><strike>AED {{ service.price90 }}</strike><br><span class="text-success">AED {{ service.price90d }}</span></td>
+                    <td><strike>AED {{ service.price120 }}</strike><br><span class="text-success">AED {{ service.price120d }}</span></td>
+                    {% else %}
                     <th scope="row">{{ service.name }}</th>
                     <td>AED {{ service.price60 }}</td>
                     <td>AED {{ service.price90 }}</td>
                     <td>AED {{ service.price120 }}</td>
+                    {% endif %}
                 </tr>
-                {% endfor %}
+            {% endfor %}
             </tbody>
         </table>
     </div>

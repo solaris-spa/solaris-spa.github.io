@@ -4,7 +4,7 @@
             <h2>Book</h2>
             <p class="mb-0">Reserve an appointment with your chosen therapist today</p>
         </div>
-        <div class="card-deck">
+        <div class="card-columns">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title"><i class="fas fa-globe"></i> Online</h4>
@@ -17,6 +17,13 @@
                     <h4 class="card-title"><i class="fas fa-phone"></i> Telephone</h4>
                     <p class="card-text">Alternatively call our reception on</p>
                     <a class="btn btn-primary rounded-pill" href="tel:{{ site.organisation_phone | remove: ' ' }}">{{ site.organisation_phone }}</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fab fa-whatsapp"></i> WhatsApp</h4>
+                    <p class="card-text">Or send us a WhatsApp message</p>
+                    <a class="btn btn-primary rounded-pill" href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}">{{ site.organisation_phone }}</a>
                 </div>
             </div>
         </div>

@@ -17,6 +17,8 @@ google_analytics: "UA-145708486-1"
 booking_url: "/book"
 #"https://www.fresha.com/providers/solaris-spa"
 
+discount_enable: true
+
 collections:
   - staff_members
 

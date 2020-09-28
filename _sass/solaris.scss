@@ -116,6 +116,10 @@ header {
   font-family: $body-font;
 }
 
+.masthead-booking .btn{
+  min-width: 170px;
+}
+
 @include media-breakpoint-up(sm) {
   .masthead-logo {
     font-size: 48px;
@@ -181,19 +185,25 @@ header {
 
 // -- TEAM --
 
-#team .card-deck {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-#team .card {
-  min-width: 15rem;
-  max-width: 15rem;
-}
-
 #team {
-  background: $background-picture-gradient, url('/assets/img/team_placeholder.jpg') no-repeat center scroll;
-  background-size: cover;
+  //background: $background-picture-gradient, url('/assets/img/team_placeholder.jpg') no-repeat center scroll;
+  //background-size: cover;
+
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .card {
+    min-width: 15rem;
+    max-width: 15rem;
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    min-height: 300px;
+    max-height: 300px;
+  }
 }
 
 // -- HOURS --
@@ -203,6 +213,15 @@ header {
 #book {
   background: $background-picture-gradient, url('/assets/img/p1.jpg') no-repeat center scroll;
   background-size: cover;
+
+  .card-columns {
+    @include media-breakpoint-up(sm) {
+      column-count: 1;
+    }
+    @include media-breakpoint-up(md) {
+      column-count: 3;
+    }
+  }
 }
 
 // -- FOOTER --

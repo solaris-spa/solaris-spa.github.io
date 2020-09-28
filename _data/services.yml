@@ -1,39 +1,65 @@
-- name: Full Body Massage
-  price60: 180
-  price90: 230
-  price120: 270
-
-- name: Full Body Massage with Oil, Aromatherapy or Hot Stones
-  price60: 220
-  price90: 290
-  price120: 330
-
-- name: Full Body Massage with Water Jet Bath
-  price60: 320
-  price90: 420
-  price120: 480
-
-- name: Full Body Massage with Moroccan Bath
-  price60: 320
-  price90: 420
-  price120: 480
-
-- name: 4 Hands Full Body Massage
-  price60: 320
-  price90: 420
-  price120: 480
-
-- name: 4 Hands Full Body Massage with Oil, Aromatherapy or Hot Stones
-  price60: 360
-  price90: 470
-  price120: 540
-
-- name: 4 Hands Full Body Massage with Water Jet Bath
-  price60: 460
-  price90: 600
-  price120: 690
-
-- name: 4 Hands Full Body Massage with Moroccan Bath
-  price60: 460
-  price90: 600
-  price120: 690
+---
+-
+    name: Full Body Massage
+    price60: 150
+    price90: 200
+    price120: 225
+    price60d: 100
+    price90d: 130
+    price120d: 150
+-
+    name: Full Body Massage with Oil, Aromatherapy or Hot Stones
+    price60: 180
+    price90: 230
+    price120: 270
+    price60d: 120
+    price90d: 160
+    price120d: 180
+-
+    name: Full Body Massage with Water Jet Bath
+    price60: 300
+    price90: 390
+    price120: 450
+    price60d: 200
+    price90d: 260
+    price120d: 300
+-
+    name: Full Body Massage with Moroccan Bath
+    price60: 300
+    price90: 390
+    price120: 450
+    price60d: 200
+    price90d: 260
+    price120d: 300
+-
+    name: 4 Hands Full Body Massage
+    price60: 270
+    price90: 350
+    price120: 405
+    price60d: 180
+    price90d: 230
+    price120d: 270
+-
+    name: 4 Hands Full Body Massage with Oil, Aromatherapy or Hot Stones
+    price60: 300
+    price90: 390
+    price120: 450
+    price60d: 200
+    price90d: 260
+    price120d: 300
+-
+    name: 4 Hands Full Body Massage with Water Jet Bath
+    price60: 420
+    price90: 550
+    price120: 630
+    price60d: 270
+    price90d: 350
+    price120d: 405
+-
+    name: 4 Hands Full Body Massage with Moroccan Bath
+    price60: 420
+    price90: 550
+    price120: 630
+    price60d: 270
+    price90d: 350
+    price120d: 405
