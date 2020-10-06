@@ -1,6 +1,6 @@
 ---
 name: Flower
 nationality: Thailand
-languages: English
-thumbnail: flower_portrait.jpg
+languages: English, Thai
+thumbnail: flower_p.jpg
 ---

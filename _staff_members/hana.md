@@ -1,6 +1,6 @@
 ---
-name: Lucky
+name: Hana
 nationality: Thailand
 languages: English, Thai
-thumbnail: lucky_p.jpg
+thumbnail: hana_p.jpg
 ---
