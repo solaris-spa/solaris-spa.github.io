@@ -3,18 +3,18 @@
         <div class="masthead-logo">
             <h1 class="masthead-logo-brand solaris-brand">{{ site.logo_title }}</h1>
             <p class="masthead-logo-description">{{ site.logo_caption }}</p>
+            <p class="masthead-logo-description mt-4">NOW OPEN</p>
         </div>
-        <p class="masthead-logo-description mt-4">Opening Autumn 2020</p>
-        <!--<div class="masthead-booking row mt-4">-->
+        <div class="masthead-booking row mt-5">
             <!--<div class="col-md mb-2">-->
                 <!--<a class="btn btn-primary rounded-pill" href="{{ site.booking_url }}"><i class="fas fa-globe"></i> Online Booking</a>-->
             <!--</div>-->
-            <!--<div class="col-md mb-2">-->
-                <!--<a class="btn btn-primary rounded-pill ml-3 mr-3" href="tel:{{ site.organisation_phone | remove: ' ' }}"><i class="fas fa-phone"></i> Telephone Booking</a>-->
-            <!--</div>-->
-            <!--<div class="col-md mb-2">-->
-                <!--<a class="btn btn-primary rounded-pill" href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}"><i class="fab fa-whatsapp"></i> WhatsApp Booking</a>-->
-            <!--</div>-->
-        <!--</div>-->
+            <div class="col-md mb-2">
+                <a class="btn btn-primary rounded-pill" href="tel:{{ site.organisation_phone | remove: ' ' }}"><i class="fas fa-phone"></i> Telephone Booking</a>
+            </div>
+            <div class="col-md mb-2">
+                <a class="btn btn-primary rounded-pill" href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}"><i class="fab fa-whatsapp"></i> WhatsApp Booking</a>
+            </div>
+        </div>
     </div>
 </header>
