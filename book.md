@@ -6,9 +6,9 @@ permalink: /book/
 
 Online Booking
 =============
-Online booking will go live when we open. Check back later.
+Online booking system is work in progress.
 
-If you have any other enquiries in the meantime then do not hesitate to contact us by Phone, Whatsapp or Email:
+If you would like to book in the  or have any other enquiries in the meantime then do not hesitate to contact us by Phone, Whatsapp or Email:
 
 <ul class="list-unstyled">
     <li><i class="fas fa-phone"></i> <a class="text-white" href="tel:{{ site.organisation_phone | remove: ' ' }}">{{ site.organisation_phone }} </a></li>
