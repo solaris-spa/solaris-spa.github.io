@@ -59,8 +59,7 @@ section {
 .navbar {
   background-color: $solaris-bg-nav;
   padding: 16px 16px;
-  transition: background-color 0.3s ease-in-out;
-  transition: padding 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
 .navbar-narrow {
@@ -201,8 +200,9 @@ header {
 
   .card-img-top {
     object-fit: cover;
-    min-height: 300px;
-    max-height: 300px;
+    object-position: center center;
+    min-height: 380px;
+    max-height: 380px;
   }
 }
 
