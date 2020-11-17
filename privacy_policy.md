@@ -7,7 +7,7 @@ permalink: /privacy/
 Privacy Policy
 ==============
 
-01/05/2020
+01/10/2020
 
 {{ site.organisation }} collects certain non-personally identify information about you when you visit our site. We may use this data to better understand our users. We can also publish this data, but the data will be about a large group of users, not individuals.
 
