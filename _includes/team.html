@@ -8,8 +8,8 @@
                 <img class="card-img-top" src="/assets/img/staff_members/{{ staff_member.thumbnail }}" alt="{{ staff_member.name }} Thumbnail">
                 <div class="card-body">
                     <h4 class="card-title">{{ staff_member.name }}</h4>
-<!--                    <p class="card-text mb-0">Nationality<br><span class="font-weight-bold">{{ staff_member.nationality }}</span></p>-->
-<!--                    <p class="card-text">Languages<br><span class="font-weight-bold">{{ staff_member.languages }}</span></p>-->
+                    <p class="card-text mb-0">Nationality<br><span class="font-weight-bold">{{ staff_member.nationality }}</span></p>
+                    <p class="card-text">Languages<br><span class="font-weight-bold">{{ staff_member.languages }}</span></p>
                     <!--<p class="card-text">Interests: {{ staff_member.content }}</p>-->
                     <a class="btn btn-primary rounded-pill" href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}?text={{ 'Hello, I would like to book ' | append: staff_member.name | append: ' please' | url_encode}}"><i class="fab fa-whatsapp"></i> Book {{ staff_member.name }} now!</a>
                     <!--<a href="#book" class="btn btn-primary rounded-pill">Book {{ staff_member.name }} now!</a>-->
