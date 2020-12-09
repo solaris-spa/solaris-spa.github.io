@@ -194,15 +194,15 @@ header {
   }
 
   .card {
-    min-width: 15rem;
-    max-width: 15rem;
+    min-width: 240px;
+    max-width: 240px;
   }
 
   .card-img-top {
     object-fit: cover;
-    object-position: center center;
-    min-height: 380px;
-    max-height: 380px;
+    object-position: top center;
+    min-height: 384px;
+    max-height: 384px;
   }
 }
 
