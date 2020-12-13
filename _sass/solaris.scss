@@ -97,12 +97,20 @@ header {
   align-items: center;
 }
 
-.masthead-logo {
+.masthead-box {
   text-align: center;
   font-size: 40px;
+}
+
+.masthead-logo {
   padding: 0.6em 0.6em;
   background-color: $solaris-bg-masthead-logo;
   text-transform: uppercase;
+}
+
+.masthead-notice {
+  padding: 0.2em 0.2em;
+  background-color: $solaris-bg-masthead-notice;
 }
 
 .masthead-logo-brand {
@@ -110,7 +118,12 @@ header {
   font-family: $masthead-font;
 }
 
-.masthead-logo-description {
+.masthead-logo-subtitle {
+  font-size: 16px;
+  font-family: $body-font;
+}
+
+.masthead-notice-text {
   font-size: 16px;
   font-family: $body-font;
 }
@@ -120,50 +133,62 @@ header {
 }
 
 @include media-breakpoint-up(sm) {
-  .masthead-logo {
+  .masthead-box {
     font-size: 48px;
   }
   .masthead-logo-brand {
     font-size: 48px;
   }
-  .masthead-logo-description {
+  .masthead-logo-subtitle {
     font-size: 19px;
+  }
+  .masthead-notice-text {
+    font-size: 18px;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .masthead-logo {
+  .masthead-box {
     font-size: 56px;
   }
   .masthead-logo-brand {
     font-size: 56px;
   }
-  .masthead-logo-description {
+  .masthead-logo-subtitle {
     font-size: 22px;
+  }
+  .masthead-notice-text {
+    font-size: 20px;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .masthead-logo {
+  .masthead-box {
     font-size: 64px;
   }
   .masthead-logo-brand {
     font-size: 64px;
   }
-  .masthead-logo-description {
+  .masthead-logo-subtitle {
     font-size: 25px;
+  }
+  .masthead-notice-text {
+    font-size: 22px;
   }
 }
 
 @include media-breakpoint-up(xl)  {
-  .masthead-logo {
+  .masthead-box {
     font-size: 72px;
   }
   .masthead-logo-brand {
     font-size: 72px;
   }
-  .masthead-logo-description {
+  .masthead-logo-subtitle {
     font-size: 28px;
+  }
+  .masthead-notice-text {
+    font-size: 24px;
   }
 }
 
