@@ -92,9 +92,20 @@ header {
   height: 100vh;
   background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
   background-size: cover;
+}
+
+.header-main {
+  height: 85vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.header-scroll {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .masthead-box {
@@ -132,6 +143,32 @@ header {
   min-width: 170px;
 }
 
+.masthead-scroll-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 16px;
+  padding: 12px;
+  background: $solaris-bg-highlight 0 0;
+  border: 1px solid $primary;
+  color: white;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+.masthead-scroll-btn:hover,
+.masthead-scroll-btn:focus {
+  color: white;
+  background: $solaris-bg-highlight-alt;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+
 @include media-breakpoint-up(sm) {
   .masthead-box {
     font-size: 48px;
@@ -144,6 +181,11 @@ header {
   }
   .masthead-notice-text {
     font-size: 18px;
+  }
+  @keyframes pulse {
+    0% {transform: scale(1.2);}
+    50% {transform: scale(1.4);}
+    100% {transform: scale(1.2);}
   }
 }
 
@@ -160,6 +202,11 @@ header {
   .masthead-notice-text {
     font-size: 20px;
   }
+  @keyframes pulse {
+    0% {transform: scale(1.4);}
+    50% {transform: scale(1.6);}
+    100% {transform: scale(1.4);}
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -175,6 +222,11 @@ header {
   .masthead-notice-text {
     font-size: 22px;
   }
+  @keyframes pulse {
+    0% {transform: scale(1.6);}
+    50% {transform: scale(1.8);}
+    100% {transform: scale(1.6);}
+  }
 }
 
 @include media-breakpoint-up(xl)  {
@@ -189,6 +241,11 @@ header {
   }
   .masthead-notice-text {
     font-size: 24px;
+  }
+  @keyframes pulse {
+    0% {transform: scale(1.8);}
+    50% {transform: scale(2.0);}
+    100% {transform: scale(1.8);}
   }
 }
 
