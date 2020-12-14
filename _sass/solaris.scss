@@ -58,13 +58,13 @@ section {
 
 .navbar {
   background-color: $solaris-bg-nav;
-  padding: 16px 16px;
+  //padding: 16px 16px;
   transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
 .navbar-narrow {
   background-color: $solaris-bg-nav-narrow;
-  padding: 8px 8px;
+  //padding: 8px 8px;
 }
 
 .navbar-nav .nav-link {
