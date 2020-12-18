@@ -1,6 +1,6 @@
 ---
-name: Linda
+name: Haney
 nationality: Thailand
 languages: English, Thai
-thumbnail: linda_p.jpg
+thumbnail: haney_p_m.jpg
 ---
