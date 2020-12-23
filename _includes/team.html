@@ -3,19 +3,24 @@
         <h2>Our Team</h2>
         <p>Meet our massage therapists</p>
         <div id="staffcarddeck" class="card-deck justify-content-center">
-        {% for staff_member in site.staff_members %}
+            {% for staff_member in site.staff_members %}
             <div class="card mb-4">
-                <img class="card-img-top" src="/assets/img/staff_members/{{ staff_member.thumbnail }}" alt="{{ staff_member.name }} Thumbnail">
+                <img class="card-img-top" src="/assets/img/staff_members/{{ staff_member.thumbnail }}"
+                     alt="{{ staff_member.name }} Thumbnail">
                 <div class="card-body">
                     <h4 class="card-title">{{ staff_member.name }}</h4>
-                    <p class="card-text mb-0">Nationality<br><span class="font-weight-bold">{{ staff_member.nationality }}</span></p>
-                    <p class="card-text">Languages<br><span class="font-weight-bold">{{ staff_member.languages }}</span></p>
+                    <p class="card-text mb-0">Nationality<br><span class="font-weight-bold">{{ staff_member.nationality }}</span>
+                    </p>
+                    <p class="card-text">Languages<br><span class="font-weight-bold">{{ staff_member.languages }}</span>
+                    </p>
                     <!--<p class="card-text">Interests: {{ staff_member.content }}</p>-->
-                    <a class="btn btn-primary rounded-pill" href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}?text={{ 'Hello, I would like to book ' | append: staff_member.name | append: ' please' | url_encode}}"><i class="fab fa-whatsapp"></i> Book {{ staff_member.name }} now!</a>
+                    <a class="btn btn-primary rounded-pill"
+                       href="https://wa.me/{{ site.organisation_phone | remove: ' ' | remove: '+' }}?text={{ 'Hello, I would like to book ' | append: staff_member.name | append: ' please' | url_encode}}"><i
+                            class="fab fa-whatsapp"></i> Book {{ staff_member.name }} now!</a>
                     <!--<a href="#book" class="btn btn-primary rounded-pill">Book {{ staff_member.name }} now!</a>-->
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -31,8 +36,9 @@
         const newNodeFrag = document.createDocumentFragment();
 
         while (xChildren.length > 0) {
-            newNodeFrag.appendChild( xChildren [Math.floor(Math.random() * xChildren.length)] );
-        };
+            newNodeFrag.appendChild(xChildren [Math.floor(Math.random() * xChildren.length)]);
+        }
+        ;
 
         nodeX.innerHTML = "";
         nodeX.appendChild(newNodeFrag);

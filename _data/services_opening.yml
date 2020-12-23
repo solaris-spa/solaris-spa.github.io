@@ -4,78 +4,78 @@
     price60: 150
     price90: 210
     price120: 270
-    price60d: 80
-    price90d: 110
-    price120d: 140
+    price60d: 100
+    price90d: 140
+    price120d: 180
 -
     name: Full Body Massage & Oil | Lotion
     price60: 200
     price90: 280
     price120: 360
-    price60d: 110
-    price90d: 150
-    price120d: 200
+    price60d: 130
+    price90d: 180
+    price120d: 230
 -
     name: Full Body Massage & Hot Oil | Hot Stones
     price60: 230
     price90: 320
     price120: 410
-    price60d: 120
-    price90d: 170
-    price120d: 220
+    price60d: 150
+    price90d: 210
+    price120d: 270
 -
     name: Water Jet Bath & Massage
     price60: 300
     price90: 420
     price120: 540
-    price60d: 170
-    price90d: 240
-    price120d: 310
+    price60d: 200
+    price90d: 280
+    price120d: 360
 -
     name: Moroccan Bath & Massage
     price60: 300
     price90: 420
     price120: 540
-    price60d: 170
-    price90d: 240
-    price120d: 310
+    price60d: 200
+    price90d: 280
+    price120d: 360
 -
     name: 4 Hands Full Body Massage
     price60: 300
     price90: 420
     price120: 540
-    price60d: 170
-    price90d: 240
-    price120d: 310
+    price60d: 200
+    price90d: 280
+    price120d: 360
 -
     name: 4 Hands Full Body Massage & Oil | Lotion
     price60: 350
     price90: 490
     price120: 630
-    price60d: 190
-    price90d: 270
-    price120d: 340
+    price60d: 230
+    price90d: 320
+    price120d: 410
 -
     name: 4 Hands Full Body Massage & Hot Oil | Hot Stones
     price60: 380
     price90: 530
     price120: 680
-    price60d: 210
-    price90d: 290
-    price120d: 380
+    price60d: 250
+    price90d: 350
+    price120d: 450
 -
     name: 4 Hands Water Jet Bath & Massage
     price60: 450
     price90: 630
     price120: 810
-    price60d: 250
-    price90d: 350
-    price120d: 450
+    price60d: 300
+    price90d: 420
+    price120d: 540
 -
     name: 4 Hands Moroccan Bath & Massage
     price60: 450
     price90: 630
     price120: 810
-    price60d: 250
-    price90d: 350
-    price120d: 450
+    price60d: 300
+    price90d: 420
+    price120d: 540

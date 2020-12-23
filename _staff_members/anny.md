@@ -1,6 +1,6 @@
 ---
-name: Hana
+name: Anny
 nationality: Thailand
 languages: English, Thai
-thumbnail: hana_p3.jpg
+thumbnail: anny_p0_m.jpg
 ---
