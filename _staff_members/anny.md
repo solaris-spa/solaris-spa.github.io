@@ -2,5 +2,5 @@
 name: Anny
 nationality: Thailand
 languages: English, Thai
-thumbnail: anny_p0_m.jpg
+thumbnail: anny_px.jpg
 ---
