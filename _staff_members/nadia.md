@@ -1,6 +1,6 @@
 ---
-name: Anny
+name: Nadia
 nationality: Thailand
 languages: English, Thai
-thumbnail: anny_px.jpg
+thumbnail: nadia_px.jpg
 ---
