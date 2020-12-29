@@ -19,8 +19,8 @@ booking_url: "/book"
 discount_enable: true
 #discount_pct: "33"
 #discount_text: "Special opening offer!"
-discount_pct: "45"
-discount_text: "Santa Claus Christmas Special!"
+discount_pct: "33"
+discount_text: New year offer!
 
 collections:
   - staff_members

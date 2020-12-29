@@ -2,9 +2,9 @@
     <div class="container">
         <h2>Our Team</h2>
         <p>Meet our massage therapists</p>
-        <div id="staffcarddeck" class="card-deck justify-content-center">
+        <div id="staffcarddeck" class="team-cards justify-content-center">
             {% for staff_member in site.staff_members %}
-            <div class="card mb-4">
+            <div class="card m-3">
                 <img class="card-img-top" src="/assets/img/staff_members/{{ staff_member.thumbnail }}"
                      alt="{{ staff_member.name }} Thumbnail">
                 <div class="card-body">

@@ -1,7 +1,7 @@
 <section id="prices" class="bg-light">
     <div class="container">
         <h2>Prices</h2>
-        <p>Our prices already include any applicable taxes</p>
+        <p>Cash and mobile payment accepted at reception</p>
         {% if site.discount_enable %}
         <h4 class="text-danger">{{ site.discount_text }}</h4>
         <h4 class="text-danger">Book your favourite service now with up to {{ site.discount_pct}}% discount!</h4>
@@ -33,5 +33,6 @@
             {% endfor %}
             </tbody>
         </table>
+        <p>Our prices already include any applicable taxes</p>
     </div>
 </section>
