@@ -20,7 +20,7 @@ discount_enable: true
 #discount_pct: "33"
 #discount_text: "Special opening offer!"
 discount_pct: "33"
-discount_text: New year offer!
+discount_text: "New year offer!"
 
 collections:
   - staff_members
