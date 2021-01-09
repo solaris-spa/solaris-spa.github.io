@@ -2,5 +2,5 @@
 name: Hana
 nationality: Thailand
 languages: English, Thai
-thumbnail: hana_p3.jpg
+thumbnail: hana_p4.jpg
 ---
