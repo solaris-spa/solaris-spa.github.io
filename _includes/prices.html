@@ -19,7 +19,7 @@
             {% for service in site.data.services %}
                 <tr>
                     {% if site.discount_enable %}
-                    <th scope="row">{{ service.name }}<br><span class="text-success">Discount (-{{ site.discount_pct}}%)</span></th>
+                    <th scope="row">{{ service.name }}<br><span class="text-success"><i class="fas fa-tags"></i> Discount (-{{ site.discount_pct}}%)</span></th>
                     <td><strike>AED {{ service.price60 }}</strike><br><span class="text-success">AED {{ service.price60d }}</span></td>
                     <td><strike>AED {{ service.price90 }}</strike><br><span class="text-success">AED {{ service.price90d }}</span></td>
                     <td><strike>AED {{ service.price120 }}</strike><br><span class="text-success">AED {{ service.price120d }}</span></td>

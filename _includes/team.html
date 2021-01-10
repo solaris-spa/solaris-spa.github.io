@@ -9,9 +9,11 @@
                      alt="{{ staff_member.name }} Thumbnail">
                 <div class="card-body">
                     <h4 class="card-title">{{ staff_member.name }}</h4>
-                    <p class="card-text mb-0">Nationality<br><span class="font-weight-bold">{{ staff_member.nationality }}</span>
+                    <p class="card-text mb-0" title="Nationality">
+                        <i class="fas fa-globe-africa"></i> <span class="font-weight-bold">{{ staff_member.nationality }}</span>
                     </p>
-                    <p class="card-text">Languages<br><span class="font-weight-bold">{{ staff_member.languages }}</span>
+                    <p class="card-text" title="Languages">
+                        <i class="far fa-comments"></i> <span class="font-weight-bold">{{ staff_member.languages }}</span>
                     </p>
                     <!--<p class="card-text">Interests: {{ staff_member.content }}</p>-->
                     <a class="btn btn-primary rounded-pill"
