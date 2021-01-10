@@ -1,6 +1,6 @@
 ---
-name: Keepsy
+name: Kibsy
 nationality: Thailand
 languages: English, Thai
-thumbnail: keepsy_p0.jpg
+thumbnail: kibsy_p0.jpg
 ---
