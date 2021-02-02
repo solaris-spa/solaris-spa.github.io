@@ -6,6 +6,9 @@ layout: base
 </header>
 <section class="section-type-text">
     <div class="container container-type-text">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.date | date_to_string }}</h2>
         {{ content }}
+        <p><a href="{{ '/blog' | relative_url }}"><< Go back to Blog index</a></p>
     </div>
 </section>

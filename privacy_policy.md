@@ -1,6 +1,7 @@
 ---
 layout: text
 title: "Privacy Policy"
+date: 2020-10-01
 permalink: /privacy/
 ---
 

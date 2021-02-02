@@ -30,13 +30,57 @@ table {
   margin: auto;
 }
 
+
 section {
   //min-height: 60vh;
-  padding-top: 112px;
+}
+
+.header-type-landing {
+  height: 100vh;
+  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
+  background-size: cover;
+}
+
+.header-type-post-old {
+  padding-top: 104px;
+  padding-bottom: 32px;
+  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
+  background-size: cover;
+}
+
+.header-type-text {
+  padding-top: 76px;
+  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
+  background-size: cover;
+}
+
+.header-type-text-alt {
+  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section-type-landing {
   text-align: center;
+  padding-top: 112px;
   padding-bottom: 112px;
   display: flex;
 }
+
+.section-type-text {
+  text-align: justify;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  min-height: 60vh;
+}
+
+.container-type-text {
+  max-width: 960px;
+}
+
 
 .solaris-brand {
   text-transform: uppercase;
@@ -47,7 +91,7 @@ section {
   }
 }
 
-.picture-section {
+.picture-section-white-font {
   color: $white;
 
   h1, h2, h3, h4, h5, h6 {
@@ -110,18 +154,6 @@ section {
 
 // -- MASTHEAD --
 
-header {
-  height: 100vh;
-  background: $background-picture-gradient, url('/assets/img/masthead.jpg') no-repeat top center scroll;
-  background-size: cover;
-}
-
-.text-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 
 .header-main {
   display: flex;

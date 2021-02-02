@@ -1,6 +1,7 @@
 ---
 layout: text
 title: "Terms & Conditions"
+date: 2020-10-01
 permalink: /terms/
 ---
 
