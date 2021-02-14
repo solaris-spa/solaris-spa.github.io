@@ -68,6 +68,7 @@ $solaris-text-nav: rgba($white, 1);
 
 $solaris-bg-masthead-notice: rgba(30, 120, 10, 0.5);
 
+
 // BOOTSTRAP CONFIG
 
 $primary: $brown-medium;
@@ -81,6 +82,20 @@ $navbar-dark-disabled-color:        rgba($white, .5);
 //$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-dark-toggler-border-color:  rgba($white, .8);
 
+
+
+// VALENTINES OVERRIDES
+$primary: #DC143C;
+$link-light: #DC143C;
+$link-dark: #B22222;
+$background-picture-gradient: linear-gradient(rgba(#DC143C, 0.00) 0%, rgba(#DC143C, 0.1) 100%);
+$solaris-bg-nav: rgba(#B22222, 0.3);
+$solaris-bg-nav-narrow: rgba(#B22222, 0.5);
+$solaris-bg-masthead-logo: rgba(#DC143C, 0.6);
+$solaris-bg-highlight: rgba(#DC143C, 0.5);
+$solaris-bg-highlight-alt: rgba(#B22222, 0.3);
+
+$solaris-bg-masthead-notice: rgba(#B22222, 0.6);
 
 // xs
 // 576

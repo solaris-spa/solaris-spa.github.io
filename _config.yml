@@ -19,8 +19,11 @@ booking_url: "/book"
 discount_enable: true
 #discount_pct: "33"
 #discount_text: "Special opening offer!"
+#discount_pct: "33"
+#discount_text: "New year offer from 130 AED!"
 discount_pct: "33"
-discount_text: "New year offer from 130 AED!"
+discount_text: "Wishing all our customers a happy Valentines Day!"
+
 
 collections:
   - staff_members
