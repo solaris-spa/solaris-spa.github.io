@@ -21,9 +21,10 @@ discount_enable: true
 #discount_text: "Special opening offer!"
 #discount_pct: "33"
 #discount_text: "New year offer from 130 AED!"
+#discount_pct: "33"
+#discount_text: "Wishing all our customers a happy Valentines Day!"
 discount_pct: "33"
-discount_text: "Wishing all our customers a happy Valentines Day!"
-
+discount_text: "Online Special offer from 130 AED!"
 
 collections:
   - staff_members
