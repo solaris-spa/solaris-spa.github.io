@@ -1,65 +1,81 @@
 ---
 -
-    name: Full Body Massage & Oil | Lotion
+    name: Thai Massage
+    price60: 150
+    price90: 210
+    price120: 270
+    price60d: 120
+    price90d: 170
+    price120d: 220
+-
+    name: Massage + Oil | Lotion
     price60: 200
     price90: 280
     price120: 360
-    price60d: 130
-    price90d: 180
-    price120d: 240
+    price60d: 160
+    price90d: 220
+    price120d: 290
 -
-    name: Full Body Massage & Hot Oil | Hot Stones
+    name: Massage + Hot Oil | Hot Stones
     price60: 230
     price90: 320
     price120: 410
-    price60d: 150
-    price90d: 210
-    price120d: 270
+    price60d: 180
+    price90d: 260
+    price120d: 330
 -
-    name: Water Jet Bath & Massage
+    name: Water Jet Bath + Massage
     price60: 300
     price90: 420
     price120: 540
-    price60d: 200
-    price90d: 280
-    price120d: 360
+    price60d: 240
+    price90d: 340
+    price120d: 430
 -
-    name: Moroccan Bath & Massage
+    name: Moroccan Bath + Massage
     price60: 300
     price90: 420
     price120: 540
-    price60d: 200
-    price90d: 280
-    price120d: 360
+    price60d: 240
+    price90d: 340
+    price120d: 430
 -
-    name: 4 Hands Full Body Massage & Oil | Lotion
+    name: 4 Hands Thai Massage
+    price60: 350
+    price90: 490
+    price120: 630
+    price60d: 280
+    price90d: 390
+    price120d: 500
+-
+    name: 4 Hands Massage + Oil | Lotion
     price60: 400
     price90: 560
     price120: 720
-    price60d: 260
-    price90d: 370
-    price120d: 480
+    price60d: 320
+    price90d: 450
+    price120d: 580
 -
-    name: 4 Hands Full Body Massage & Hot Oil | Hot Stones
+    name: 4 Hands Massage + Hot Oil | Hot Stones
     price60: 430
     price90: 600
     price120: 770
-    price60d: 280
-    price90d: 400
-    price120d: 510
+    price60d: 340
+    price90d: 480
+    price120d: 620
 -
-    name: 4 Hands Water Jet Bath & Massage
+    name: 4 Hands Water Jet Bath + Massage
     price60: 500
     price90: 700
     price120: 900
-    price60d: 330
-    price90d: 460
-    price120d: 590
+    price60d: 400
+    price90d: 560
+    price120d: 720
 -
-    name: 4 Hands Moroccan Bath & Massage
+    name: 4 Hands Moroccan Bath + Massage
     price60: 500
     price90: 700
     price120: 900
-    price60d: 330
-    price90d: 460
-    price120d: 590
+    price60d: 400
+    price90d: 560
+    price120d: 720
