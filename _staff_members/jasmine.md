@@ -2,5 +2,5 @@
 name: Jasmine
 nationality: Thailand
 languages: English, Thai
-thumbnail: jasmine_p0.jpeg
+thumbnail: jasmine_p1.jpeg
 ---

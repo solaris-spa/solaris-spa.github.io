@@ -2,5 +2,5 @@
 name: Raya
 nationality: Thailand
 languages: English, Thai
-thumbnail: raya_p1.jpeg
+thumbnail: raya_p3.jpeg
 ---
