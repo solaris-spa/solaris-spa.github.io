@@ -1,6 +1,6 @@
 ---
-name: Flower
+name: Nora
 nationality: Thailand
 languages: English, Thai
-thumbnail: flower_p5_m.jpg
+thumbnail: nora_p0.jpeg
 ---

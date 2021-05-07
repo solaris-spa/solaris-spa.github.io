@@ -1,6 +1,6 @@
 ---
-name: Haney
+name: Jasmine
 nationality: Thailand
 languages: English, Thai
-thumbnail: haney_p3.jpeg
+thumbnail: jasmine_p0.jpeg
 ---

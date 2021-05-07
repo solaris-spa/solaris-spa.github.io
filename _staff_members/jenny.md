@@ -1,6 +1,6 @@
 ---
-name: Haney
+name: Jenny
 nationality: Thailand
 languages: English, Thai
-thumbnail: haney_p3.jpeg
+thumbnail: jenny_p1.jpeg
 ---
