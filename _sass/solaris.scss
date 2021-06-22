@@ -220,6 +220,18 @@ section {
   }
 }
 
+.btn-location {
+  min-width: 170px;
+  background: $solaris-bg-highlight 0 0;
+  border: 1px solid $white;
+  color: white;
+
+  &:focus, &:hover {
+    color: white;
+    background: $solaris-bg-highlight-alt;
+  }
+}
+
 .masthead-scroll-btn {
   width: 6vh;
   height: 6vh;
