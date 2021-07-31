@@ -2,5 +2,5 @@
 name: Haney
 nationality: Thailand
 languages: English, Thai
-thumbnail: haney_p3.jpeg
+thumbnail: haney_p4_m.jpg
 ---
