@@ -27,6 +27,8 @@ collections:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: false
 permalink: pretty
 
 sass:
