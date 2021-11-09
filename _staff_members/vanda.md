@@ -1,6 +1,6 @@
 ---
-name: Raya
+name: Vanda
 nationality: Thailand
 languages: English, Thai
-thumbnail: raya_p3.jpeg
+thumbnail: vanda_p0_m.jpg
 ---

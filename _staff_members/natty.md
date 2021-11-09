@@ -1,6 +1,6 @@
 ---
-name: Kibsy
+name: Natty
 nationality: Thailand
 languages: English, Thai
-thumbnail: kibsy_p2_m.jpg
+thumbnail: natty_p0.jpg
 ---
