@@ -2,5 +2,5 @@
 name: Nana
 nationality: Thailand
 languages: English, Thai
-thumbnail: placeholder_portrait_watermark.jpg
+thumbnail: nana_p0_m.jpg
 ---

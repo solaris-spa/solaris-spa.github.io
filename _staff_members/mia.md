@@ -2,5 +2,5 @@
 name: Mia
 nationality: Nigeria
 languages: English
-thumbnail: mia_p0.jpeg
+thumbnail: mia_p1_m.jpg
 ---

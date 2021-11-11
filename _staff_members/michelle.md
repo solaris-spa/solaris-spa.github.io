@@ -2,5 +2,5 @@
 name: Michelle
 nationality: Thailand
 languages: English, Thai
-thumbnail: placeholder_portrait_watermark.jpg
+thumbnail: michelle_p0_m.jpg
 ---
