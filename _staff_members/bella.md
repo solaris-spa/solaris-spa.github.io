@@ -1,6 +1,6 @@
 ---
-name: Tina
+name: Bella
 nationality: Thailand
 languages: English, Thai
-thumbnail: tina_p1.jpg
+thumbnail: bella_p0_m.jpg
 ---
