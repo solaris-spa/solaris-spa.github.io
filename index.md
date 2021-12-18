@@ -9,3 +9,5 @@ layout: base
 {% include prices.html %}
 {% include hours.html %}
 {% include book.html %}
+
+{% include snow.html %}
