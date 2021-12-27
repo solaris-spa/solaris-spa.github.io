@@ -21,6 +21,7 @@ booking_url: "/book"
 discount_enable: true
 discount_pct: "20"
 #discount_text: <i class="fas fa-tags"></i> Online Special offer from 120 AED!
+
 discount_text: <i class="fas fa-holly-berry"></i> Winter special offer from 120 AED! <i class="fas fa-gifts"></i>
 
 
