@@ -1,4 +1,5 @@
 ---
+title: 120 AED/Hour Offer
 layout: base
 ---
 
