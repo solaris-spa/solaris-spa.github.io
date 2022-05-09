@@ -1,6 +1,6 @@
 ---
-name: Jasmine
+name: Joy
 nationality: Thailand
 languages: English, Thai
-thumbnail: jasmine_p3_m.jpg
+thumbnail: joy_p0_m.jpg
 ---
