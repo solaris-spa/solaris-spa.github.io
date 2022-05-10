@@ -1,6 +1,6 @@
 ---
-name: Vanda
+name: Pam
 nationality: Thailand
 languages: English, Thai
-thumbnail: vanda_p2.jpg
+thumbnail: pam_p0_m.jpg
 ---
