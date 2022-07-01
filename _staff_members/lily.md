@@ -2,5 +2,5 @@
 name: Lily
 nationality: Vietnam
 languages: English, Vietnamese
-thumbnail: lily_p5_m.jpg
+thumbnail: lily_p6_m.jpg
 ---
