@@ -5,9 +5,13 @@
                 <h1 class="masthead-logo-brand solaris-brand">SOLARI<span class="last">S</span></h1>
                 <div class="masthead-logo-subtitle">{{ site.logo_caption }}</div>
             </div>
+            {% if site.discount_enable %}
             <div class="masthead-box masthead-notice mt-3">
                 <div class="masthead-notice-text">{{ site.discount_text }} {{ site.discount_pct }}% Discount!</div>
             </div>
+            {% else %}
+            <div class="masthead-box pt-4"></div>
+            {% endif %}
             <div class="masthead-booking row mt-3 mx-0">
                 <div class="col-md mb-2">
                     <a class="btn btn-header rounded-pill" href="tel:{{ site.organisation_phone | remove: ' ' }}"><i
