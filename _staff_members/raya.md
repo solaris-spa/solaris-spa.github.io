@@ -1,6 +1,6 @@
 ---
-name: Nancy
+name: Raya
 nationality: Thailand
 languages: English, Thai
-thumbnail: nancy_p1_m.jpg
+thumbnail: raya_p4_m.jpg
 ---

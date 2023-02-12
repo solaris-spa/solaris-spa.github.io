@@ -1,6 +1,6 @@
 ---
-name: Pam
+name: Mona
 nationality: Thailand
 languages: English, Thai
-thumbnail: pam_p0_m.jpg
+thumbnail: mona_p0_m.jpg
 ---

@@ -2,5 +2,5 @@
 name: Bella
 nationality: Thailand
 languages: English, Thai
-thumbnail: bella_p0_m.jpg
+thumbnail: bella_p1_m.jpg
 ---

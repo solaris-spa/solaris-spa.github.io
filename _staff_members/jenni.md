@@ -1,6 +1,6 @@
 ---
-name: Nancy
+name: Jenni
 nationality: Thailand
 languages: English, Thai
-thumbnail: nancy_p1_m.jpg
+thumbnail: jenni_p0_m.jpg
 ---
