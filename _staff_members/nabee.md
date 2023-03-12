@@ -2,5 +2,5 @@
 name: Nabee
 nationality: Thailand
 languages: English, Thai
-thumbnail: nabee_p3.jpg
+thumbnail: nabee_p1_m.jpg
 ---
