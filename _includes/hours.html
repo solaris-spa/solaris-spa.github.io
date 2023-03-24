@@ -1,45 +1,45 @@
 <section id="hours"  class="section-type-landing">
     <div class="container">
-<!--        <h2>Ramadan Opening Hours</h2>-->
-<!--        <p>Open all week, every day from 1 PM to 2 AM</p>-->
-<!--        <table class="table">-->
-<!--            <thead>-->
-<!--            <tr>-->
-<!--                <th scope="col">Day</th>-->
-<!--                <th scope="col">First Appointment</th>-->
-<!--                <th scope="col">Last Appointment</th>-->
-<!--            </tr>-->
-<!--            </thead>-->
-<!--            <tbody>-->
-<!--            {% for time in site.data.hours_ramadan %}-->
-<!--            <tr>-->
-<!--                <th scope="row">{{ time.day }}</th>-->
-<!--                <td>{{ time.open }}</td>-->
-<!--                <td>{{ time.close }}</td>-->
-<!--            </tr>-->
-<!--            {% endfor %}-->
-<!--            </tbody>-->
-<!--        </table>-->
-
-        <h2>Opening Hours</h2>
-        <p>Open all week, every day from 11 AM to 12 Midnight</p>
+        <h2>Ramadan Opening Hours</h2>
+        <p>Ramadan opening hours may vary, please call if you wish to come earlier</p>
         <table class="table">
             <thead>
-                <tr>
-                    <th scope="col">Day</th>
-                    <th scope="col">First Appointment</th>
-                    <th scope="col">Last Appointment</th>
-                </tr>
+            <tr>
+                <th scope="col">Day</th>
+                <th scope="col">First Appointment</th>
+                <th scope="col">Last Appointment</th>
+            </tr>
             </thead>
             <tbody>
-            {% for time in site.data.hours %}
-                <tr>
-                    <th scope="row">{{ time.day }}</th>
-                    <td>{{ time.open }}</td>
-                    <td>{{ time.close }}</td>
-                </tr>
+            {% for time in site.data.hours_ramadan %}
+            <tr>
+                <th scope="row">{{ time.day }}</th>
+                <td>{{ time.open }}</td>
+                <td>{{ time.close }}</td>
+            </tr>
             {% endfor %}
             </tbody>
         </table>
+
+<!--        <h2>Opening Hours</h2>-->
+<!--        <p>Open all week, every day from 11 AM to 12 Midnight</p>-->
+<!--        <table class="table">-->
+<!--            <thead>-->
+<!--                <tr>-->
+<!--                    <th scope="col">Day</th>-->
+<!--                    <th scope="col">First Appointment</th>-->
+<!--                    <th scope="col">Last Appointment</th>-->
+<!--                </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--            {% for time in site.data.hours %}-->
+<!--                <tr>-->
+<!--                    <th scope="row">{{ time.day }}</th>-->
+<!--                    <td>{{ time.open }}</td>-->
+<!--                    <td>{{ time.close }}</td>-->
+<!--                </tr>-->
+<!--            {% endfor %}-->
+<!--            </tbody>-->
+<!--        </table>-->
     </div>
 </section>
