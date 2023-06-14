@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Benefits of Thai Massage"
+title:  "Benefits of Thai Massage"
 ---
 ## Introduction
 In today's hectic world, finding moments of relaxation and rejuvenation is crucial for maintaining our well-being. While there are various massage techniques available, Thai massage offers a unique and holistic approach to healing. Originating from the ancient healing practices of Thailand, Thai massage provides a myriad of benefits that go beyond mere physical relaxation. Let's explore the transformative benefits of this ancient art.
