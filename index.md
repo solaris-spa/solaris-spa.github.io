@@ -1,5 +1,5 @@
 ---
-title: Massage from 150 Dhs
+title: 150 AED/Hr
 layout: base
 ---
 
