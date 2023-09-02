@@ -1,6 +1,6 @@
 ---
 name: Mialy
 nationality: Mauritius
-languages: French, English
+languages: English, French
 thumbnail: mialy_p0_m.jpg
 ---
