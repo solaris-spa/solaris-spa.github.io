@@ -1,6 +1,6 @@
 ---
-name: Feriel
+name: Amira
 nationality: Morocco
 languages: Arabic, French, English
-thumbnail: feriel_p0_m.jpg
+thumbnail: amira_p1_m.jpg
 ---
