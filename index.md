@@ -6,7 +6,7 @@ layout: base
 {% include header.html %}
 {% include about.html %}
 {% include location.html %}
-{% include team.html %}
+{% comment %} {% include team.html %} {% endcomment %}
 {% include prices.html %}
 {% include hours.html %}
 {% include book.html %}
